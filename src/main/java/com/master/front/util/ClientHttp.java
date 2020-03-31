@@ -22,12 +22,6 @@ import javax.ws.rs.core.Response;
 import java.io.Serializable;
 import java.util.Map;
 
-/**
- * Classe que encapsula uma conexão HTTP para realizar métodos GET, POST e PATCH
- *
- * @author Filipe D. Abreu
- * @since 24/03/2016
- */
 @Stateful
 public class ClientHttp implements Serializable {
 	private static final long serialVersionUID = 1L;
